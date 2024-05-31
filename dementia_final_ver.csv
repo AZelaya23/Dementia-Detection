@@ -1,0 +1,27 @@
+Variable Name,Description
+dementia_all,"The Response Variable; 1= Dementia , 0 = No Dementia"
+ID,Unique ID of the client/ patient
+age,The Age  of the Patient
+diabetes,Binary Variable represented by 1 = Patient has diabetes or 0 = No diabetes
+hypertension,Binary Variable represented by 1 = Patient has hypertensions or 0 = No hypertensions
+hypercholesterolemia,Binary Variable represented by 1 = Patient has high blood pressure or 0 = No hyp blood pressure
+SVD.Amended.Score,"A combined variable of the SVD.simple score Fezekas, etc."
+Fazekas,A integer variable that deterines the sclae of what matter signals within the brain during an MRI scan
+genfemale,Binary Variable determines if Patient is a Female or not
+genmale,Binary Variable determines if Patient is a male or not
+ed1,Categorical separated into 'ed1' containing educationyears from 1-12
+ed2,Categorical separated into 'ed2' containing educationyears from 13-16
+ed3,Categorical separated into 'ed3' containing educationyears from 17-21
+smokecurrent.smoker,"Binary Variable representing if the patient has records of currently smoking; 1 = yes, 0 = 0"
+smokeex.smoker,"Binary Variable representing if the patient has records of smoked before, but has stopped; 1 = yes, 0 = 0"
+smokenever.smoker,"Binary Variable representing if the patient has records never smoking; 1 = yes, 0 = 0"
+studASPS.elderly,"The Study conducted on the patient - ASPS specifically on Elderly; 1 = yes, 0 = 0"
+studASPS.family,"The Study conducted on the patient - ASPS specifically on Family, 1 = yes, 0 = 0"
+studrundmc,"The Study conducted on the patient - RunDMC scan; 1 = yes, 0 = 0"
+studscans,"The Study conducted on the patient - Scan; 1 = yes, 0 = 0"
+lac.5,"Binary Variable representing if the patient has had more than 5 Lucune cavities within the brain; 1 = yes, 0 = 0"
+lac1.to.2,"Binary Variable representing if the patient has had 1-2 Lucune cavities within the brain.; 1 = yes, 0 = 0"
+lac3.to.5,"Binary Variable representing if the patient has had 3-5 Lucune cavities within the brain 1 = yes, 0 = 0"
+lacZero,"Binary Variable representing if the patient has had no Lucune cavities within the brain; 1 = yes, 0 = 0"
+cmb..1,"Binary Variable representing if the patient has records more than one cerebral microbleed; 1 = yes, 0 = 0"
+cmb0,"Binary Variable representing if the patient has records of no cerebral microbleeds; 1 = yes, 0 = 0"
